@@ -14,6 +14,17 @@
 		E41268FC2A802F2600419136 /* NutritiousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41268FB2A802F2600419136 /* NutritiousTests.swift */; };
 		E41269062A802F2600419136 /* NutritiousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41269052A802F2600419136 /* NutritiousUITests.swift */; };
 		E41269082A802F2600419136 /* NutritiousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41269072A802F2600419136 /* NutritiousUITestsLaunchTests.swift */; };
+		E4265EBC2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EBB2A8FFBD100698CF7 /* OptimaEL-Roman.otf */; };
+		E4265EBD2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EBB2A8FFBD100698CF7 /* OptimaEL-Roman.otf */; };
+		E4265EBE2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EBB2A8FFBD100698CF7 /* OptimaEL-Roman.otf */; };
+		E4265EC52A90010000698CF7 /* Optima.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC42A90010000698CF7 /* Optima.ttc */; };
+		E4265EC62A90010000698CF7 /* Optima.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC42A90010000698CF7 /* Optima.ttc */; };
+		E4265EC72A90010000698CF7 /* Optima.ttc in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC42A90010000698CF7 /* Optima.ttc */; };
+		E4265EC92A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC82A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf */; };
+		E4265ECA2A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC82A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf */; };
+		E4265ECB2A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4265EC82A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf */; };
+		E4BBF0562A9035C600E03375 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBF0552A9035C600E03375 /* InfoView.swift */; };
+		E4FB95542A8FF5BB00F3A0B2 /* Estée Lauder Fonts in Resources */ = {isa = PBXBuildFile; fileRef = E4FB95532A8FF5BB00F3A0B2 /* Estée Lauder Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,11 @@
 		E41269012A802F2600419136 /* NutritiousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutritiousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41269052A802F2600419136 /* NutritiousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousUITests.swift; sourceTree = "<group>"; };
 		E41269072A802F2600419136 /* NutritiousUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritiousUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4265EBB2A8FFBD100698CF7 /* OptimaEL-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OptimaEL-Roman.otf"; path = "Nutritious/Estée Lauder Fonts/otf/OptimaEL-Roman.otf"; sourceTree = SOURCE_ROOT; };
+		E4265EC42A90010000698CF7 /* Optima.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Optima.ttc; sourceTree = "<group>"; };
+		E4265EC82A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AkzidenzGroteskBQ-Bold.otf"; sourceTree = "<group>"; };
+		E4BBF0552A9035C600E03375 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E4FB95532A8FF5BB00F3A0B2 /* Estée Lauder Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Estée Lauder Fonts"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +111,11 @@
 		E41268E82A802F2400419136 /* Nutritious */ = {
 			isa = PBXGroup;
 			children = (
+				E4265EBA2A8FFBA800698CF7 /* Font */,
 				E41268E92A802F2400419136 /* NutritiousApp.swift */,
 				E41268EB2A802F2400419136 /* ContentView.swift */,
+				E4BBF0552A9035C600E03375 /* InfoView.swift */,
+				E4FB95532A8FF5BB00F3A0B2 /* Estée Lauder Fonts */,
 				E41268ED2A802F2600419136 /* Assets.xcassets */,
 				E41268EF2A802F2600419136 /* Nutritious.entitlements */,
 				E41268F02A802F2600419136 /* Preview Content */,
@@ -127,6 +146,16 @@
 				E41269072A802F2600419136 /* NutritiousUITestsLaunchTests.swift */,
 			);
 			path = NutritiousUITests;
+			sourceTree = "<group>";
+		};
+		E4265EBA2A8FFBA800698CF7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E4265EC82A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf */,
+				E4265EC42A90010000698CF7 /* Optima.ttc */,
+				E4265EBB2A8FFBD100698CF7 /* OptimaEL-Roman.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FB95542A8FF5BB00F3A0B2 /* Estée Lauder Fonts in Resources */,
+				E4265EBC2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */,
 				E41268F22A802F2600419136 /* Preview Assets.xcassets in Resources */,
+				E4265EC92A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */,
+				E4265EC52A90010000698CF7 /* Optima.ttc in Resources */,
 				E41268EE2A802F2600419136 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4265ECA2A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */,
+				E4265EBD2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */,
+				E4265EC62A90010000698CF7 /* Optima.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4265ECB2A90092F00698CF7 /* AkzidenzGroteskBQ-Bold.otf in Resources */,
+				E4265EBE2A8FFBD100698CF7 /* OptimaEL-Roman.otf in Resources */,
+				E4265EC72A90010000698CF7 /* Optima.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41268EC2A802F2400419136 /* ContentView.swift in Sources */,
+				E4BBF0562A9035C600E03375 /* InfoView.swift in Sources */,
 				E41268EA2A802F2400419136 /* NutritiousApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nutritious/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutritious/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nutritious/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutritious/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
